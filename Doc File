@@ -1,2 +1,2 @@
 https://docs.google.com/document/d/1dJUHB7fsnyBUBa3noMy7RdEM29IevjI-agLW9rBtmfo/edit?tab=t.0
-
+This project explores the HUD Point-in-Time Homelessness dataset using BigQuery. After reviewing the schema and identifying key acronyms and column types, I created a new table to make the data more analysis-friendly. Since state data wasn’t explicitly provided, I used the LEFT() function on the CoC_Number column to extract state abbreviations. The cleaned table includes columns for total homelessness, types of shelter, and demographics such as veterans and unaccompanied youth. This data can help inform decisions about where to allocate resources like shelters, food programs, and outreach services.
